@@ -92,8 +92,8 @@ router.post("/login", async (req, res) => {
             subject: "Verify the email",
             html: `
             <h2> welcome </h2>
-            <p> hello how are you</p>
-            <a href='https://660f9b6d43fd695549697ac3--authentication-10.netlify.app//api/verify/${token}'>verify email</a>
+            <p> click the URL to verify the email</p>
+            <a href='https://660f9b6d43fd695549697ac3--authentication-10.netlify.app/api/verify/${token}'>verify email</a>
             `,
           };
           transporter.sendMail(options, (error, info) => {
