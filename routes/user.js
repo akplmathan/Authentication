@@ -93,7 +93,7 @@ router.post("/login", async (req, res) => {
             html: `
             <h2> welcome </h2>
             <p> hello how are you</p>
-            <a href='https://starlit-dasik-10c1a3.netlify.app/api/verify/${token}'>verify email</a>
+            <a href='https://660f9b6d43fd695549697ac3--authentication-10.netlify.app//api/verify/${token}'>verify email</a>
             `,
           };
           transporter.sendMail(options, (error, info) => {
