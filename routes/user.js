@@ -93,7 +93,7 @@ router.post("/login", async (req, res) => {
             html: `
             <h2> welcome </h2>
             <p> click the URL to verify the email</p>
-            <a href='https://660f9b6d43fd695549697ac3--authentication-10.netlify.app/api/verify/${token}'>verify email</a>
+            <a href='https://main--fanciful-lamington-b67d69.netlify.app/api/verify/${token}'>verify email</a>
             `,
           };
           transporter.sendMail(options, (error, info) => {
