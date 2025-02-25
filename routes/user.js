@@ -6,7 +6,7 @@ const nodemailer = require("nodemailer");
 const verifyToken = require("../middleware/verify");
 
 const mail = "akplmathan@gmail.com";
-const pwd = "yszapxeudmbvfwav";
+const pwd = "yszapxeudmbvfwavva";
 
 router.get("/", (req, res) => {
   try {
